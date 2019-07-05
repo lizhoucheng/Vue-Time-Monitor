@@ -8,7 +8,7 @@
         <section>
             <div class="col1">
                 <h1>Vue Task Monitor</h1>
-                <p>For the complete project, please check out <a href="https://github.com/lizhoucheng">Github</a></p>
+                <p>For the complete project, please check out <a href="https://github.com/lizhoucheng/Vue-Time-Monitor">Github</a></p>
             </div>
             <div class="col2" :class="{'signup-form': !showLoginForm && !showForgotPassword}">
                 <form v-if="showLoginForm" @submit.prevent>
